@@ -1,5 +1,8 @@
 <html>
 <head>
+<link href="/dist/omni-nav.min.css" rel="stylesheet">
+<script src="/dist/omni-nav.min.js"></script>
+
     <title> @yield('title') </title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
@@ -25,6 +28,9 @@
         $.material.init();
     });
 </script>
+
+// <?php include "/dist/omni-nav.html"; ?>
+    
 </body>
 
 </html>
