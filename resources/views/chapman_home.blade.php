@@ -1,42 +1,3 @@
-<html>
-<head>
-	<link href="/dist/omni-nav.min.css" rel="stylesheet">
-	<script src="/dist/omni-nav.min.js"></script>
-
-    <title> @yield('title') </title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
-    <link href="/css/roboto.min.css" rel="stylesheet">
-    <link href="/css/material.min.css" rel="stylesheet">
-    <link href="/css/ripples.min.css" rel="stylesheet">
-
-</head>
-<body>
-
-@include('shared.navbar')
-
-@yield('content')
-
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-<script src="/js/ripples.min.js"></script>
-<script src="/js/material.min.js"></script>
-<script>
-    $(document).ready(function() {
-        // This command is used to initialize some elements and make them work properly
-        $.material.init();
-    });
-</script>
-
-// <?php 
-// include "/dist/html/www.chapman.edu/omni-nav.html";
-// ?>
-    
-</body>
-
-</html>
-
 <!doctype html>
 <html>
 <head>
@@ -98,68 +59,72 @@
 </head>
 <body>
 
-<!-- 	<div id="content"> -->
-<!-- 		<h1>Welcome to the ChapmanU Omni-Nav page!</h1> -->
+	<div id="content">
+<!-- 		<h1><center>Welcome to the ChapmanU Omni-Nav page!</center></h1> -->
 
 <!-- 		<p>This page demonstrates how the OmniBar functions, and provides some useful information about what is needed to implement it on a website.</p> -->
+		
+		<h1><center>"Free time is the enemy of progress."</center></h1>
 
-<!-- 		<h2>Instructions to add to a site</h2> -->
-<!-- 		<p>First, publish all of the assets in the `/dist/` folder to your web server. </p> -->
-<!-- 		<p>Then link to the following in the <b>&lang; head &rang;</b> of the page: </p> -->
+		<p><center>- Casey Neistat</center></p>
 
-<!-- 		<blockquote> -->
-<!-- 			<ul> -->
-<!-- 				<li>omni-nav.min.js (7kb)</li> -->
-<!-- 				<li>omni-nav.min.css (13kb)</li> -->
-<!-- 			</ul> -->
-<!-- 		</blockquote> -->
+		<h2>Instructions to add to a site</h2>
+		<p>First, publish all of the assets in the `/dist/` folder to your web server. </p>
+		<p>Then link to the following in the <b>&lang; head &rang;</b> of the page: </p>
 
-<!-- 		<p>Use a server-side include* to add this HTML right before the closing <b>&lang; body &rang;</b> tag, or in the header of your page. It doesn't matter where.</p> -->
+		<blockquote>
+			<ul>
+				<li>omni-nav.min.js (7kb)</li>
+				<li>omni-nav.min.css (13kb)</li>
+			</ul>
+		</blockquote>
 
-<!-- 		<blockquote> -->
-<!-- 			<ul> -->
-<!-- 				<li>omni-nav.html (5kb)</li> -->
-<!-- 			</ul> -->
-<!-- 		</blockquote> -->
+		<p>Use a server-side include* to add this HTML right before the closing <b>&lang; body &rang;</b> tag, or in the header of your page. It doesn't matter where.</p>
+
+		<blockquote>
+			<ul>
+				<li>omni-nav.html (5kb)</li>
+			</ul>
+		</blockquote>
 
 		<!-- <p class="small"><em>* It is highly recommended to use server-side caching when including this file in order to increase performance.  If the file is unreachable, the server should be configured to serve the cached asset indefinitely. </em></p> -->
 
 
 
-<!-- 		<br /><br /><br /><br /><br /><br /> -->
+		<br /><br /><br /><br /><br /><br />
 
-<!-- 		<h1>Development Instructions</h1> -->
+		<h1>Development Instructions</h1>
 
-<!-- 		<p>Modify the files located in the <b>/src/</b> directory. Use <b>grunt</b> or <b>grunt watch</b> in the terminal to compile assets. You should only ever need to modify the following files; omni-nav.svg is an SVG spritemap with all icons. </p> -->
+		<p>Modify the files located in the <b>/src/</b> directory. Use <b>grunt</b> or <b>grunt watch</b> in the terminal to compile assets. You should only ever need to modify the following files; omni-nav.svg is an SVG spritemap with all icons. </p>
 
-<!-- 		<blockquote> -->
-<!-- 			<ul> -->
-<!-- 				<li>src/omni-nav.js</li> -->
-<!-- 				<li>src/omni-nav.scss</li> -->
-<!-- 				<li>src/omni-nav.svg</li> -->
-<!-- 				<li>src/omni-nav.html</li> -->
-<!-- 			</ul> -->
-<!-- 		</blockquote> -->
+		<blockquote>
+			<ul>
+				<li>src/omni-nav.js</li>
+				<li>src/omni-nav.scss</li>
+				<li>src/omni-nav.svg</li>
+				<li>src/omni-nav.html</li>
+			</ul>
+		</blockquote>
 
-<!-- 		<p>Make sure to run grunt to compile your assets before publishing.</p> -->
-
-
-<!-- 		<br /><br /><br /><br /><br /><br /> -->
-
-<!-- 		<h1>Companion Bar</h1> -->
-
-<!-- 		<p>On your page, include the following HTML structure anywhere: </p> -->
-
-<!-- 		<blockquote>&lt;div id=&quot;cu_companion_bar&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;Loyal Companion Bar<br /> &lt;/div&gt;</blockquote> -->
-
-<!-- 		<p>Your companion bar content will then magically appear. </p> -->
+		<p>Make sure to run grunt to compile your assets before publishing.</p>
 
 
-<!-- 		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
-<!-- 		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
+		<br /><br /><br /><br /><br /><br />
+
+		<h1>Companion Bar</h1>
+
+		<p>On your page, include the following HTML structure anywhere: </p>
+
+		<blockquote>&lt;div id=&quot;cu_companion_bar&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;Loyal Companion Bar<br /> &lt;/div&gt;</blockquote>
+
+		<p>Your companion bar content will then magically appear. </p>
 
 
-<!-- 	</div> -->
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+	</div>
 
 	<div id="cu_nav">
 	<ul id="cu_nav_domain" class="cu_nav_menu cu_nav_selectable">
@@ -271,11 +236,3 @@
 	</div>
 
 </div>
-
-
-<!-- 	<div id="cu_companion_bar" class="autohide"> -->
-<!-- 		Loyal Companion Bar -->
-<!-- 	</div> -->
-
-</body>
-</html>

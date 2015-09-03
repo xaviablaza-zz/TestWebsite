@@ -24,5 +24,10 @@ class PagesController extends Controller
     {
     	return view('contact');
     }
+    
+    public function chapman_home()
+    {
+    	return view('chapman_home');
+    }
 
 }
