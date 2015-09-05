@@ -129,10 +129,10 @@
 	<div id="cu_nav">
 	<ul id="cu_nav_domain" class="cu_nav_menu cu_nav_selectable">
 		<li class="selected"><a class="cu_nav_button" href="http://www.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_window" /></svg>Chapman.edu</a></li>
-		<li><a class="cu_nav_button" href="https://events.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#calendar" /></svg>Events.Chapman</a></li>
-		<li><a class="cu_nav_button" href="https://blogs.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#newspaper" /></svg>Blogs.Chapman</a></li>
-		<li><a class="cu_nav_button" href="https://social.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#chat" /></svg>Social.Chapman</a></li>
-		<li><a class="cu_nav_button" href="https://inside.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_monogram" /></svg>Inside.Chapman</a></li>
+		<li><a class="cu_nav_button" href="https://events.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#calendar" /></svg>Events</a></li>
+		<li><a class="cu_nav_button" href="https://blogs.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#newspaper" /></svg>Blogs</a></li>
+		<li><a class="cu_nav_button" href="https://social.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#chat" /></svg>Social</a></li>
+		<li><a class="cu_nav_button" href="https://inside.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_monogram" /></svg>Inside</a></li>
 	</ul>
 
 	<ul class="cu_nav_secondary cu_nav_menu cu_nav_selectable" style="display: none;" data-show-domain="blogs.chapman.edu">
@@ -192,15 +192,15 @@
 
 			  </form>
 		</div>
-
+		
 		<ul class="cu_dropdown_menu">
-			<li><a class="cu_nav_button" href="https://blackboard.chapman.edu/"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#blackboard" /></svg>Blackboard</a></li>
-			<li><a class="cu_nav_button" href="https://my.chapman.edu"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_window" /></svg>MyChapman</a></li>
-			<li><a class="cu_nav_button" href="http://panthermail.chapman.edu/"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#email" /></svg>PantherMail</a></li>
-			<li><a class="cu_nav_button" href="https://exchange.chapman.edu/"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#email" /></svg>Staff &amp; Faculty Email</a></li>
-			<li><a class="cu_nav_button" href="https://mywindow.chapman.edu/"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_window" /></svg>MyWindow</a></li>
-			<li><a class="cu_nav_button" href="https://cas.chapman.edu/login?service=https://orgsync.com/cas/chapman-university"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#orgsync" /></svg>OrgSync</a></li>
-			<li><a class="cu_nav_button" href="https://ariel.chapman.edu/WebAdvisor/WebAdvisor"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_monogram" /></svg>WebAdvisor</a></li>
+			<li><a class="cu_nav_button" href="https://blackboard.chapman.edu/" target="_blank"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#blackboard" /></svg>Blackboard</a></li>
+			<li><a class="cu_nav_button" href="https://my.chapman.edu/psp/PA91PROD/EMPLOYEE/EMPL/h/?tab=PAPP_GUEST" target="_blank"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_window" /></svg>MyChapman</a></li>
+			<li><a class="cu_nav_button" href="http://panthermail.chapman.edu/" target="_blank"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#email" /></svg>PantherMail</a></li>
+			<li><a class="cu_nav_button" href="https://exchange.chapman.edu/" target="_blank"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#email" /></svg>Staff &amp; Faculty Email</a></li>
+			<li><a class="cu_nav_button" href="https://mywindow.chapman.edu/" target="_blank"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_window" /></svg>MyWindow</a></li>
+			<li><a class="cu_nav_button" href="https://cas.chapman.edu/login?service=https://orgsync.com/cas/chapman-university" target="_blank"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#orgsync" /></svg>OrgSync</a></li>
+			<li><a class="cu_nav_button" href="https://ariel.chapman.edu/WebAdvisor/WebAdvisor" target="_blank"><svg viewbox="0 0 512 512"><use xlink:href="dist/omni-nav.svg#cu_monogram" /></svg>WebAdvisor</a></li>
 		</ul>
 
 	</div>
